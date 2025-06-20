@@ -232,7 +232,7 @@ def run_main_app(pet_name):
         Cycle between action and idle animations at regular intervals.
         Only act if not acting or sleeping.
         """
-        if not is_playing[0] and current_action[0] != "Sleep":
+        if not is_playing[0] and not is_sleeping[0] and current_action[0] != "Sleep":
             switch_action("Action")
             root_window.after(ACTION_DURATION, lambda: switch_action("Idle"))
 
