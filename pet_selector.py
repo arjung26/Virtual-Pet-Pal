@@ -6,7 +6,6 @@ Disables the Save button if necessary frames are missing.
 """
 
 import tkinter as tk
-from tkinter import messagebox
 from pet_loader import load_preview_frames
 from config import PET_LIST, DEFAULT_PET, PET_FRAME_WIDTH, PET_FRAME_HEIGHT
 
