@@ -64,6 +64,10 @@ Before running the app, make sure the following are installed:
    ```bash
    python main.py
 
+5. **Make sure you're in the same directory where all the `.py` files and the `Assets/` folder are located when running the code.**
+
+6. **You can run the code using the command line (`python main.py`) or open the folder in any Python-friendly IDE like **VS Code**, **PyCharm**, or **Thonny**, and run `main.py` directly from there.**
+
 ---
 
 ## 🐶 How to Interact With Your Pet
